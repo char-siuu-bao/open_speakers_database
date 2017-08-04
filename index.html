@@ -93,20 +93,24 @@
                 <h2>Find a Speaker or Collaborator</h2>
                 <p>The Open Speakers Database is a crowd-sourced database of regional experts on Open Access, Open Education and Open Data, put together by <a href="http://www.righttoresearch.org/">the Right to Research Coalition</a> and <a href="http://www.opencon2017.org">OpenCon</a>. Please be patient — the database will appear below but takes some time to load. <p>
                   <script src="//load.sheetsu.com"></script>
-                  <table style="width:100%">
-                    <thead>
-                      <th>First Name</th>
-                      <th>Last Name</th>
-                      <th>Bio (Optional)</th>
-                    </thead>
-                    <tbody sheetsu="https://sheetsu.com/apis/v1.0/525e59f6cfa8" sheetsu-limit="3">
-                      <tr>
-                        <td width="20%" style="text-align:left">{{First Name}}</td>
-                        <td width="20%" style="text-align:left">{{Second Name}}</td>
-                        <td width="20%" style="text-align:left">{{Bio}}</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <table width=100%>
+              <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Country</h>
+                <th> Issue Area(s) </th>
+                <th>Bio (Optional)</th>
+              </thead>
+              <tbody sheetsu="https://sheetsu.com/apis/v1.0/525e59f6cfa8" sheetsu-limit="3">
+                <tr>
+                  <td>{{First Name}}</td>
+                  <td>{{Second Name}}</td>
+                  <td>{{Country}}</td>
+                  <td>{{IssueArea}}</td>
+                  <td>{{Bio}}</td>
+                </tr>
+              </tbody>
+            </table>
             </div>
         </div>
     </section>
