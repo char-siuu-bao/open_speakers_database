@@ -110,7 +110,7 @@ a:focus, a:hover {
     display: table;
     height: auto;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     color: #fff;
     background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
     -webkit-background-size: cover;
