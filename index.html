@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="//load.sheetsu.com"></script>
 
     <title>Open Speakers Database</title>
 
@@ -92,6 +93,20 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Find a Speaker or Collaborator</h2>
                 <p>The Open Speakers Database is a crowd-sourced database of regional experts on Open Access, Open Education and Open Data, put together by <a href="http://www.righttoresearch.org/">the Right to Research Coalition</a> and <a href="http://www.opencon2017.org">OpenCon</a>. <p>
+                  <table>
+                    <thead>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Bio (Optional)</th>
+                    </thead>
+                    <tbody sheetsu="https://sheetsu.com/apis/v1.0/525e59f6cfa8" sheetsu-limit="3">
+                      <tr>
+                        <td>{{First Name}}</td>
+                        <td>{{Second Name}}</td>
+                        <td>{{Bio}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
                 <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
             </div>
