@@ -194,6 +194,7 @@ a:focus, a:hover {
 }
 }.content-section {
     padding-top: 100px;
+    text-align: left;
 }
 .download-section {
     width: 100%;
