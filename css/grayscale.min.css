@@ -278,15 +278,13 @@ img::-moz-selection {
 }
 
 th {
-    width: 30%;
     text-align: left;
 }
 
 td {
-    width: 30%;
     text-align: left;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
