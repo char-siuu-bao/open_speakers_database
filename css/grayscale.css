@@ -314,13 +314,17 @@ body {
 }
 
 table {
-    width: 100%;
+    width: 100px;
 }
+
 th {
-    width:30%;
+    width: 30%;
     text-align: left;
+    border-bottom: 1px solid #ddd;
 }
+
 td {
     width: 30%;
     text-align: left;
+    border-bottom: 1px solid #ddd;
 }
