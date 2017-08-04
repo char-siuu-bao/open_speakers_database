@@ -43,7 +43,7 @@ p {
 }
 a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c;
+    color: white;
 }
 .light {
     font-weight: 400;
