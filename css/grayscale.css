@@ -316,3 +316,11 @@ body {
 table {
     width: 100%;
 }
+th {
+    width:30%;
+    text-align: left;
+}
+td {
+    width: 30%;
+    text-align: left;
+}
