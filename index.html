@@ -92,8 +92,9 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <h2>Find a Speaker For Your Open Event</h2>
                 <p>The Open Speakers Database is a crowd-sourced method for finding experts in your region on Open Access, Open Education and Open Data.</p> <p>When possible, clicking on the name will allow you to email the speaker. Please be patient — the database will appear below but takes some time to load.  Note: this page is <i>not</i> meant to be viewed on mobile. <p>
-                  <p>Search by country: <input type="text" id="countryinput"> </p>
+                  <p>Search by country: <input type="text" id="countrysearch"></p>
                   <script src="//load.sheetsu.com"></script>
+                  <script> var countryinput = document.getElementById("countrysearch").value</script>
                   <table width=100%>
               <thead>
                 <th>Name</th>
@@ -102,7 +103,7 @@
                 <th>Affiliation</th>
                 <th>Twitter</th>
               </thead>
-              <tbody sheetsu="https://sheetsu.com/apis/v1.0/525e59f6cfa8" sheetsu-limit="20">
+              <tbody sheetsu="https://sheetsu.com/apis/v1.0/525e59f6cfa8" sheetsu-limit="30">
                 <tr>
                   <td><a href="{{Email}}">{{Name}}</a></td>
                   <td>{{Country}}</td>
@@ -139,13 +140,12 @@
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/open_con" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/lorrainechu3n/open_speakers_database" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
